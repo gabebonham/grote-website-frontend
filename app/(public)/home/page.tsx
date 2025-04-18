@@ -26,7 +26,7 @@ export default function HomePage() {
 			<AppHeader />
 			<ModalButton
 				body={<LoginModal />}
-				button={<div></div>}
+				button={<span></span>}
 				open={on}
 			/>
 			<PresentationSection />

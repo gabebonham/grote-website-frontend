@@ -1,7 +1,7 @@
 export const messagesMock = [
 	{
 		id: '1',
-		content: 'oi bla',
+		content: 'oi bla1',
 		createdAt: new Date(),
 		new: true,
 		email: 'usr@gmail.com',
@@ -10,7 +10,7 @@ export const messagesMock = [
 	},
 	{
 		id: '2',
-		content: 'oi bla',
+		content: 'oi bla2',
 		createdAt: new Date(),
 		new: true,
 		email: 'usr@gmail.com',
@@ -19,7 +19,7 @@ export const messagesMock = [
 	},
 	{
 		id: '3',
-		content: 'oi bla',
+		content: 'oi bla3',
 		createdAt: new Date(),
 		new: false,
 		email: 'usr@gmail.com',
@@ -28,7 +28,7 @@ export const messagesMock = [
 	},
 	{
 		id: '4',
-		content: 'oi bla',
+		content: 'oi bla4',
 		createdAt: new Date(),
 		new: true,
 		email: 'usr@gmail.com',
@@ -37,7 +37,7 @@ export const messagesMock = [
 	},
 	{
 		id: '5',
-		content: 'oi bla',
+		content: 'oi bla5',
 		createdAt: new Date(),
 		new: false,
 		email: 'usr@gmail.com',
@@ -46,7 +46,7 @@ export const messagesMock = [
 	},
 	{
 		id: '6',
-		content: 'oi bla',
+		content: 'oi bla6',
 		createdAt: new Date(),
 		new: true,
 		email: 'usr@gmail.com',
@@ -55,7 +55,7 @@ export const messagesMock = [
 	},
 	{
 		id: '7',
-		content: 'oi bla',
+		content: 'oi bla7',
 		createdAt: new Date(),
 		new: true,
 		email: 'usr@gmail.com',
