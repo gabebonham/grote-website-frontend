@@ -30,9 +30,7 @@ export default async function RootLayout({
 
 	return (
 		<html lang="en" className="scroll-smooth overflow-x-hidden ">
-			<body
-				className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden`}
-			>
+			<body className={`antialiased overflow-x-hidden`}>
 				<Providers cookies={token}>
 					{children}
 				</Providers>

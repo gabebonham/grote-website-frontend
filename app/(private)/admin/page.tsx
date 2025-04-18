@@ -13,6 +13,8 @@ import AboutSection from './sections/about/AboutSection';
 import { useState } from 'react';
 import logout from '@/app/lib/logout';
 import { useRouter } from 'next/navigation';
+import PresentationSection from './sections/presentation/PresentationSection';
+import MessagesSection from './sections/messages/MessagesSection';
 
 export default function AdminPage() {
 	const router = useRouter();
@@ -34,12 +36,26 @@ export default function AdminPage() {
 				>
 					<CarouselContent className="flex flex-col gap-y-8 items-center h-42  py-8 ">
 						<CarouselItem>
-							<Button className="text-4xl p-12">
+							<Button
+								className="text-4xl p-12"
+								onClick={() =>
+									setSection(
+										<MessagesSection />,
+									)
+								}
+							>
 								Messages
 							</Button>
 						</CarouselItem>
 						<CarouselItem>
-							<Button className="text-4xl p-8">
+							<Button
+								className="text-4xl p-8"
+								onClick={() =>
+									setSection(
+										<PresentationSection />,
+									)
+								}
+							>
 								Presentation
 							</Button>
 						</CarouselItem>

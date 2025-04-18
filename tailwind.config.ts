@@ -13,8 +13,7 @@ export default {
 				purpleCustom2: 'var(--purpleCustom2)',
 			},
 			fontFamily: {
-				sans: ['var(--font-sans)', 'sans-serif'],
-				mono: ['var(--font-mono)', 'monospace'],
+				silkscreen: ['Silkscreen', 'monospace'], // fallback to monospace
 			},
 		},
 	},
